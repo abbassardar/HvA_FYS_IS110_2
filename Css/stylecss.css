@@ -26,10 +26,6 @@
     color: white;
 }
 
-body {
-    font-family: Verdana, sans-serif;
-
-}
 
 .teamPadding{
     padding-top: 64px;
@@ -80,7 +76,6 @@ div{
 }
 
 html, body{
-    font-family: Verdana, sans-serif;
     font-size: 15px;
     line-height: 1.5;
 }
