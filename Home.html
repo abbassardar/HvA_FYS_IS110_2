@@ -1,145 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-      * {box-sizing: border-box;}
-      .mySlides {display: none;}
-      img {vertical-align: middle;}
-      /* Slideshow container */
-      .slideshow-container {
-          max-width: 1000px;
-          position: relative;
-          margin: auto;
-      }
-      /* Caption text */
-      .text {
-          color: #f2f2f2;
-          font-size: 15px;
-          padding: 8px 12px;
-          position: absolute;
-          bottom: 8px;
-          width: 100%;
-          text-align: center;
-      }
-      /* Number text (1/3 etc) */
-      .numbertext {
-          color: #f2f2f2;
-          font-size: 12px;
-          padding: 8px 12px;
-          position: absolute;
-          top: 0;
-      }
-      /* The dots/bullets/indicators */
-      .dot {
-          height: 15px;
-          width: 15px;
-          margin: 0 2px;
-          background-color: #bbb;
-          border-radius: 50%;
-          display: inline-block;
-          transition: background-color .6s ease;
-      }
-      .active {
-          background-color: #717171;
-      }
-      /* Fading animation */
-      .fade {
-          -webkit-animation-name: fade;89
-          -webkit-animation-duration: 7.5s;
-          animation-name: fade;
-          animation-duration: 1.5s;
-      }
-      @-webkit-keyframes fade {
-          from {opacity: .4}
-          to {opacity: 1}
-      }
-      @keyframes fade {
-          from {opacity: .4}
-          to {opacity: 1}
-      }
-      /* On smaller screens, decrease text size */
-      @media only screen and (max-width: 300px) {
-          .text {font-size: 11px}
-      }
-  </style>
-    <meta charset="UTF-8">
-    <title>Cor en Don / Connect & Go</title>
-    <link rel="stylesheet" type="text/css" href="Css/Home.css">
+    <title>Corendon - Connect & Go</title>
+    <link href="Home.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
+        body {
+            margin: 0;
+        }
+
+
+        .header {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+
+        .topnav {
+            overflow: hidden;
+            background-color: #D81E05;
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 15px;
+        }
+
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+
+        @media screen and (max-width:600px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
 
+<div class="header">
+    <img src="Cor1.jpg" alt="Het logo van het bedrijf" height="125" width="400">
+</div>
+
 <div class="topnav">
-    <a class="#Homepage" href="Home.html">Home</a>
-    <a href="Business.html">Businesscase</a>
-    <a href="FunctionalRequirements.html">Functional Requirments</a>
-    <a href="Nonfunctional.html">Non Functional Requirments</a>
-    <a href="OnsTeam.html">Ons Team</a>
+    <a href="#Homepage">Homepage</a>
+    <a href="#Businesscase">Businesscase</a>
+    <a href="#FunctionalRequirments">Functional Requirments</a>
+    <a href="#NonFunctionalRequirments">Non Functional Requirments</a>
+    <a href="#OurTeam">Ons Team</a>
+
 </div>
 
+<div class="row">
+    <div class="column">
+        <h2>Het Concept</h2>
+        <p>Wij presenteren: Corendon – Connect & Go. Een gloednieuw platform ontworpen door Software Engineering studenten van de Hogeschool van Amsterdam.  Het doel van dit platform is om alleenstaande reizigers te verbinden met elkaar. Ons team is momenteel druk bezig met het ontwikkelen van deze website. Je kunt momenteel wel al een paar pagina’s vinden zoals: de homepage, de businesscase, de functional requirments, de non functional requirments en informatie over ons team. Op onze homepage kun je een introductie vinden over het project. In onze businesscase kun je ons plan van aanpak vinden. Bij de functional requirments kun je de functionele eisen van onze website vinden. Bij de non functional requirments kun je de niet functionele eisen van onze website vinden. Op onze teampagina kun je meer informatie over ons team vinden.</p>
+    </div>
+    <div class="column">
+        <h2>De Opdrachtomschrijving</h2>
+        <p> Het aantal alleenstaanden in Nederland groeit hard. Zeventig jaar geleden telde Nederland
+            285.000 alleenstaanden, inmiddels zijn dat er meer dan drie miljoen. Dat blijkt uit cijfers van
+            het Centraal Bureau voor de Statistiek. De verwachting is dat in 2030 3,6 miljoen mensen
+            alleen door het leven gaan. Een alleenstaande kan iemand zijn die vrijgezel is maar ook
+            iemand die gescheiden is (met of zonder kinderen) of weduwe/ weduwnaar is.
+            In de vakantiewereld is ook een groeiende vraag naar reizen speciaal voor alleenstaanden.
+            Voor sommige reizigers is 's avonds alleen een glas wijn drinken heerlijk, anderen reizen
+            liever samen met familie of vrienden, of juist met een heel nieuw gezelschap.
+            Het kan leuk zijn (een deel) van de reis op te trekken met iemand die dezelfde interesses
+            heeft. Bijvoorbeeld om samen naar een favoriet museum of festival te gaan of om samen
+            lekker vis te eten bij dat leuke strandtentje.
+            Corendon wil inspelen op deze ontwikkeling en wil de alleenstaande reizigers met elkaar in
+            contact brengen op basis van gezamenlijke interesses. Dit contact kan ontstaan voordat een
+            reis geboekt wordt, bijvoorbeeld om een andere alleenstaande reiziger te zoeken om samen
+            (een deel) van de reis mee op te trekken. Maar het kan ook tijdens de reis om iemand te
+            zoeken voor een leuke activiteit. Corendon wil hiervoor een website ontwikkelen om dit
+            allemaal mogelijk te maken. Deze website staat los van de bestaande Corendon website.
+            Via links in de reisteksten en in de reisdocumenten wordt verwezen naar het bestaan van de
+            site.
+         </p>
+    </div>
+    <div class="column">
+        <h2>De Taakverdeling</h2>
+        <p> Danial Iqbal – Homepage </p>
+        <p> Abbas Sardar & Martin Antonov – Businesscase </p>
+        <p> Jason Schermer – Functional Requirments </p>
+        <p> Martin Antonov – Businesscase </p>
+        <p> Onur Ortaakarsuci – Non Functional Requirments </p>
+
+    </div>
 
 
-</body>
-</html>
-
-
-<h2></h2>
-<p>        </p><br><br> </p>
-<div class="slideshow-container">
-    <div class="mySlides fade">
-        <div class="numbertext">1 / 5</div>
-        <img src="images/1.jpg" style="width:100%">
-        <div class="text">Introductie</div>
-    </div>
-    <div class="mySlides fade">
-        <div class="numbertext">2 / 5</div>
-        <img src="images/2.jpg" style="width:100%">
-        <div class="text">Wat houdt het in?</div>
-    </div>
-    <div class="mySlides fade">
-    <div class="numbertext">3 / 5</div>
-    <img src="images/3.jpg" style="width:100%">
-    <div class="text">Oostenrijk</div>
-</div>
-    <div class="mySlides fade">
-        <div class="numbertext">4 / 5</div>
-        <img src="images/4.jpg" style="width:100%">
-        <div class="text">Spanje</div>
-    </div>
-    <div class="mySlides fade">
-        <div class="numbertext">5 / 5</div>
-        <img src="images/5.jpg" style="width:100%">
-        <div class="text">Portugal</div>
-    </div>
-</div>
-<br>
-<div style="text-align:center">
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-</div>
-<script>
-    var slideIndex = 0;
-    showSlides();
-    function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1}
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
-        setTimeout(showSlides, 2000); //
-    }
-</script>
 </body>
 </html>
