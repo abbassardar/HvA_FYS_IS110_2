@@ -87,7 +87,6 @@ body {
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -157,7 +156,8 @@ div.Naam2 {
 
 .imgDanial{
     border-radius: 10%;
-    width: 70%;
+    width: 80%;
+    height: 60%;
 }
 
 .imgMartin{
