@@ -9,6 +9,8 @@ h2 {
 
 body {
     margin: 0;
+    font-family: Calibri;
+
 }
 
 
@@ -213,4 +215,34 @@ li.regel6 {
 
 li.regel7 {
     margin-bottom: 10px;
+}
+
+footer{
+    border-top: solid;
+    border-top-color:  #D81E05;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.center{
+    text-align: center;
+}
+.p {
+    text-align: center;
+}
+.moscow{
+    top: 250px;
+}
+table, th, td {
+    border: 2px solid #D81E05;
+    border-collapse: collapse;
+}
+th{
+    font-size: 23px;
+}
+th,td{
+    padding: 20px;
 }

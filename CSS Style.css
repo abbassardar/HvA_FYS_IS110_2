@@ -1,29 +1,4 @@
-.header {
-  background-color: white;
-  padding: 20px;
-  text-align: center;
-}
 
-
-.topnav {
-  overflow: hidden;
-  background-color: #D81E05;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
 
 body{background: white;}
 
@@ -44,7 +19,6 @@ h1 {background-color: #D81E05;
 table, th, td {
   border: 2px solid #D81E05;
   border-collapse: collapse;
-  font-family: Calibri;
 }
 th{
   font-size: 23px;
