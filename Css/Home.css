@@ -121,6 +121,7 @@ div.namen {
     background-color: blue;
 
 }
+
 div.Naam1{
     margin-left: 0px;
     width: 100px;
@@ -140,7 +141,7 @@ div.Naam2 {
     padding: 10px;
     height: 340px;
     box-sizing: border-box;
-    border: 3px dotted #D81E05;
+    border: 3px solid #D81E05;
 }
 
 .img{
@@ -155,22 +156,14 @@ div.Naam2 {
     width: 70%;
 }
 
-.imgDanial{
-    border-radius: 10%;
-    width: 80%;
-    height: 60%;
-}
 
-.imgMartin{
-    border-radius: 10%;
-    width: 70%;
-}
+
 .teamCenter {
     text-align: center !important;
 }
 
 .onzeAfspraken {
-    border: 3px dotted #D81E05;
+    border: 3px solid #D81E05;
     margin-top: 350px;
 }
 
