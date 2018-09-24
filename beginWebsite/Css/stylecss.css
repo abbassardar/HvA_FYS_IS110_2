@@ -26,17 +26,13 @@
     color: white;
 }
 
-<<<<<<< Updated upstream:Css/stylecss.css
 
-.teamPadding{
-=======
+
 .teamPadding {
->>>>>>> Stashed changes:beginWebsite/Css/stylecss.css
     padding-top: 64px;
     padding-bottom: 64px;
 }
 
-<<<<<<< Updated upstream:Css/stylecss.css
 div.namen {
   position: absolute;
   left: 50px;
@@ -50,14 +46,14 @@ div.Naam1{
     width: 100px;
       background-color: red;
 }
-div.Naam2{
-  margin-left: 300px;
+div.Naam2 {
+    margin-left: 300px;
     width: 100px;
     height: 50px;
     margin-top: 0px;
-      background-color: green;
+    background-color: green;
+}
 
-=======
 .Naam {
     float: left;
     width: 16.66%;
@@ -65,7 +61,6 @@ div.Naam2{
     height: 340px;
     box-sizing: border-box;
     border: 3px dotted #D81E05;
->>>>>>> Stashed changes:beginWebsite/Css/stylecss.css
 }
 
 .img{
@@ -98,14 +93,13 @@ div.Naam2{
     margin-top: 350px;
 }
 
-<<<<<<< Updated upstream:Css/stylecss.css
-html, body{
+html, body {
     font-size: 15px;
     line-height: 1.5;
-=======
+}
+
 .voorwaaardenAfspraken {
     text-align: center;
->>>>>>> Stashed changes:beginWebsite/Css/stylecss.css
 }
 
 .paragraaf {
