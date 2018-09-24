@@ -9,3 +9,9 @@
   border-right-style: solid;
   border-right-color:  #D81E05;
 }
+
+.zoom:hover {
+  -ms-transform: scale(1.75);
+  -webkit-transform: scale(1.75);
+  transform: scale(1.75);
+}
