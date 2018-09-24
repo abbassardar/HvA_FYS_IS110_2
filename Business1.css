@@ -8,6 +8,7 @@
   border-left-color:  #D81E05;
   border-right-style: solid;
   border-right-color:  #D81E05;
+<<<<<<< Updated upstream
 }
 
 .zoom:hover {
@@ -15,3 +16,11 @@
   -webkit-transform: scale(1.75);
   transform: scale(1.75);
 }
+=======
+
+  .zoom:hover {
+      -ms-transform: scale(1.75);
+      -webkit-transform: scale(1.75);
+      transform: scale(1.75);
+  }
+>>>>>>> Stashed changes
