@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" class="gr__localhost"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Corendon - Connect &amp; Go</title>
@@ -9,32 +8,37 @@
     <link href="Css/Home.css" rel="stylesheet" type="text/css">
 
     <style>
-table {
+table, th, td {
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
-  border: 3px solid purple;
+  border: 2px solid #D81E05;
+  font-family: Calibri;
+}
+
+th{
+font-size: 23px;
 }
 
 thead th:nth-child(1) {
   width: 10%;
 }
 
-        thead th:nth-child(2) {
-            width: 70%;
-        }
+thead th:nth-child(2) {
+  width: 70%;
+}
 
-        thead th:nth-child(3) {
-            width: 20%;
-        }
+thead th:nth-child(3) {
+  width: 20%;
+}
 
-        th, td {
-            padding: 20px;
-        }
-    </style>
+th, td {
+  padding: 20px;
+}
+</style>
 
 </head>
-<body>
+<body data-gr-c-s-loaded="true">
 <div class="header">
     <img src="images/Cor1.jpg" alt="Het logo van het bedrijf" height="125" width="400">
 </div>
@@ -47,9 +51,10 @@ thead th:nth-child(1) {
     <a href="OnsTeam.html">Ons Team</a>
 </div>
 
+<article class="article1">
 <h2><strong>Inloggen</strong></h2>
 <table>
-<thead>
+    <thead>
     <tr>
 
         <th>Req-Nr</th>
@@ -134,116 +139,107 @@ thead th:nth-child(1) {
     </tbody>
 </table>
 <h2><strong>Functies voor de gebruikers</strong></h2>
-<table class="w3-table-all">
-        <thead>
-        <tr>
-            <th>Req-Nr</th>
-            <th>Requirements</th>
-            <th>Prioriteit</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>013</td>
-            <td>De gebruiker moet in staat zijn om via de website een bericht te versturen</td>
-            <td>Must</td>
-        </tr>
-        <tr>
-            <td>014</td>
-            <td>De gebruiker moet in staat om via de website andere gebruikers te vinden</td>
-            <td>Must</td>
-        </tr>
-        <tr>
-            <td>015</td>
-            <td>De gebruiker moet in staat zijn om door middel van zoekcriteria's gewenste gebruikers op te zoeken</td>
-            <td>Must</td>
-        </tr>
-        <tr>
-            <td>016</td>
-            <td>De gebruiker moet bij het opzoeken van andere gebruikers, het aantal aangegeven gebruikers kunnen
-                maximaliseren tot en met 50 en ook minimaliseren</td>
-            <td>Should</td>
-        </tr>
-        <tr>
-            <td>017</td>
-            <td>De applicatie moet in staat zijn om bij de zoekcriteria binnen een straal van 50 km gebruikers te filteren</td>
-            <td>Should</td>
-        </tr>
-        <tr>
-            <td>018</td>
-            <td>De gebruiker moet beoordelingen kunnen maken over de website</td>
-            <td>Must</td>
-        </tr>
-        <tr>
-            <td>019</td>
-            <td>De beoordelingen van de website moeten ook zichtbaar zijn, door middel van een link</td>
-            <td>Must</td>
-        </tr>
-        <tr>
-            <td>020</td>
-            <td>De gebruiker moet in staat zijn om zowel in de Engelse als de Nederlandse taal gebruik te maken van de website</td>
-            <td>Must</td>
-        </tr>
-        <tr>
-            <td>021</td>
-            <td>De gebruiker moet kunnen navigeren door middel van een menu</td>
-            <td>Must</td>
-        </tr>
-        </tbody>
-    </table>
+<table>
+    <thead>
+    <tr>
+        <th>Req-Nr</th>
+        <th>Requirements</th>
+        <th>Prioriteit</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>013</td>
+        <td>De gebruiker moet in staat zijn om via de website een bericht te versturen</td>
+        <td>Must</td>
+    </tr>
+    <tr>
+        <td>014</td>
+        <td>De gebruiker moet in staat om via de website andere gebruikers te vinden</td>
+        <td>Must</td>
+    </tr>
+    <tr>
+        <td>015</td>
+        <td>De gebruiker moet in staat zijn om door middel van zoekcriteria's gewenste gebruikers op te zoeken</td>
+        <td>Must</td>
+    </tr>
+    <tr>
+        <td>016</td>
+        <td>De gebruiker moet bij het opzoeken van andere gebruikers, het aantal aangegeven gebruikers kunnen
+            maximaliseren tot en met 50 en ook minimaliseren</td>
+        <td>Should</td>
+    </tr>
+    <tr>
+        <td>017</td>
+        <td>De applicatie moet in staat zijn om bij de zoekcriteria binnen een straal van 50 km gebruikers te filteren</td>
+        <td>Should</td>
+    </tr>
+    <tr>
+        <td>018</td>
+        <td>De gebruiker moet beoordelingen kunnen maken over de website</td>
+        <td>Must</td>
+    </tr>
+    <tr>
+        <td>019</td>
+        <td>De beoordelingen van de website moeten ook zichtbaar zijn, door middel van een link</td>
+        <td>Must</td>
+    </tr>
+    <tr>
+        <td>020</td>
+        <td>De gebruiker moet in staat zijn om zowel in de Engelse als de Nederlandse taal gebruik te maken van de website</td>
+        <td>Must</td>
+    </tr>
+    <tr>
+        <td>021</td>
+        <td>De gebruiker moet kunnen navigeren door middel van een menu</td>
+        <td>Must</td>
+    </tr>
+    </tbody>
+</table>
 
 <h2><strong>Overige</strong></h2>
-<table class="w3-table-all">
-            <thead>
-            <tr>
-                <th>Req-Nr</th>
-                <th>Requirements</th>
-                <th>Prioriteit</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>022</td>
-                <td>In de applicatie moet een handleiding aanwezig zijn</td>
-                <td>Must</td>
-            </tr>
-            <tr>
-                <td>023</td>
-                <td>In de hoofdpagina van de website staat het doel beschreven</td>
-                <td>Must</td>
-            </tr>
-            <tr>
-                <td>024</td>
-                <td>In de applicatie moet een contactpagina zijn</td>
-                <td>Must</td>
-            </tr>
-            <tr>
-                <td>025</td>
-                <td>De applicatie moet volgens de standaard van de HTML/CSS correct zijn uitgevoerd</td>
-                <td>Must</td>
-            </tr>
-            <tr>
-                <td>026</td>
-                <td>De applicatie moet responsief zijn</td>
-                <td>Must</td>
-            </tr>
-            <tr>
-                <td>027</td>
-                <td>De applicatie zou in staat moeten zijn om statistieken te maken van hoeveel mensen de site
-                    bezoeken en contact proberen op te nemen</td>
-                <td>Must</td>
-            </tr>
-            <tr>
-                <td>028</td>
-                <td>De website moet er netjes uitzien en niet te zakelijk</td>
-                <td>Should</td>
-            </tr>
-            <tr>
-                <td>029</td>
-                <td>De applicatie zou het gevoel moeten geven dat het een Corendon website is</td>
-                <td>Should</td>
-            </tr>
-            </tbody>
-        </table>
-</body>
-</html>
+<table>
+    <thead>
+    <tr>
+        <th>Req-Nr</th>
+        <th>Requirements</th>
+        <th>Prioriteit</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>022</td>
+        <td>In de applicatie moet een handleiding aanwezig zijn</td>
+        <td>Must</td>
+    </tr>
+    <tr>
+        <td>023</td>
+        <td>In de hoofdpagina van de website staat het doel beschreven</td>
+        <td>Must</td>
+    </tr>
+    <tr>
+        <td>024</td>
+        <td>In de applicatie moet een contactpagina zijn</td>
+        <td>Must</td>
+    </tr>
+    <tr>
+        <td>025</td>
+        <td>De applicatie moet volgens de standaard van de HTML/CSS correct zijn uitgevoerd</td>
+        <td>Must</td>
+    </tr>
+    <tr>
+        <td>026</td>
+        <td>De applicatie moet responsief zijn</td>
+        <td>Must</td>
+    </tr>
+    <tr>
+        <td>027</td>
+        <td>De applicatie zou in staat moeten zijn om statistieken te maken van hoeveel mensen de site
+            bezoeken en contact proberen op te nemen</td>
+        <td>Must</td>
+    </tr>
+    </tbody>
+</table>
+</article>
+
+</body></html>
