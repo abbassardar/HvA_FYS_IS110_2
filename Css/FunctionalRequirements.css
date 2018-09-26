@@ -1,0 +1,25 @@
+table, th, td {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #D81E05;
+  font-family: Calibri;
+}
+th{
+font-size: 23px;
+}
+
+thead th:nth-child(1) {
+  width: 10%;
+}
+
+thead th:nth-child(2) {
+  width: 70%;
+}
+thead th:nth-child(3) {
+  width: 20%;
+}
+
+th, td {
+  padding: 20px;
+}
